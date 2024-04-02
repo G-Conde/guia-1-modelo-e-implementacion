@@ -13,16 +13,16 @@ c. Imprima ambos objetos por pantalla
 d. Aumente el salario del empleado Carlos en un 15% e imprima en pantalla el
 salario anual del mismo.
 */
-public class Empleado {
+public class Employee {
     private Integer dni;
     private String name;
     private String lastName;
     private Double salary;
 
-    public Empleado() {
+    public Employee() {
     }
 
-    public Empleado(Integer dni, String name, String lastName, Double salary) {
+    public Employee(Integer dni, String name, String lastName, Double salary) {
         this.dni = dni;
         this.name = name;
         this.lastName = lastName;
@@ -60,7 +60,7 @@ public class Empleado {
     public void salaryIncrease(Double percent) {
         this.salary = ((this.salary *percent)/100)+this.salary;
     }
-    public void employe() {
+    public void employee() {
         System.out.println("[DNI=" + getDni()+", "+ "Empleado=" + getName()+", "+ "Apellido=" + getLastName()+", "+ "Salario=" + getSalary() + "]");
     }
 }
