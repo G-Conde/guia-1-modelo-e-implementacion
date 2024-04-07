@@ -12,6 +12,7 @@ b. Inicialice un empleado Ana Sánchez, con dni 34234123 y salario inicial de
 c. Imprima ambos objetos por pantalla
 d. Aumente el salario del empleado Carlos en un 15% e imprima en pantalla el
 salario anual del mismo.
+
 */
 public class Employee {
     private Integer dni;
